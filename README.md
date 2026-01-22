@@ -10,7 +10,8 @@
 7. How response.json() methods work 
 
 ```
-# Promise Static methods : the method that will be call  * access directly via class Reference 
+### Promise Static methods :- 
+- the method that will be call  * access directly via class Reference 
 
 ```
 1. Promise.all(): it takes  array of the Promises , if one fail then result rejected 

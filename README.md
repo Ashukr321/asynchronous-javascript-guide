@@ -10,3 +10,15 @@
 7. How response.json() methods work 
 
 ```
+# Promise Static methods : the method that will be call  * access directly via class Reference 
+
+```
+1. Promise.all(): it takes  array of the Promises , if one fail then result rejected 
+2. Promise.allSettled(): No matter this return the value of  the promise either resolve or reject 
+3. Promise.any():  This return only fulfilled Promise order no preserve 
+4. Promise.race():
+5. Promise.reject(): 
+6. Promise.resolve(): 
+7. Promise.try() 
+8. Promise.resolvers() 
+```

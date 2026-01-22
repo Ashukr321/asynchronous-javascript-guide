@@ -16,17 +16,17 @@
 
 // Promises
 
-Promises.all();
-Promises.allSettled();
-Promises.any();
-Promises.race();
-Promises.reject();
-Promises.resolve();
-Promises.try();
+Promise.all();
+Promise.allSettled();
+Promise.any();
+Promise.race();
+Promise.reject();
+Promise.resolve();
+Promise.try();
 
-// 2. instance methods of the javascript 
+// 2. instance methods   that call by object only 
 // 1. then() : is the instance methods 
-// 2. catch(): 
+// 2. catch(): : this catches the error in the javascript
 // 3. finally(): method
 
 

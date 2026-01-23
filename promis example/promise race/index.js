@@ -11,3 +11,18 @@ const result = Promise.race([p1, p2])
 result.then((resData) => {
   console.log(resData); // ouput is Two
 }).catch((err) => console.log(err));
+
+
+// application of the promise.race
+// 1. Request Timeout ( the common use ):
+// when we make request to  the api we don't want user stare at sppinner forever;
+
+// // we defined some time if the server don't responed within the time frame then we reject it and displlay request time out or retry something like that 
+
+
+//2. speed opitmization data fetching ( reducndacny )
+// In high availibity we might store the same data at differnet -differnt location  as primary database , secondaryDatabase(cache) or two differnt cdn 
+
+// 3. throttling long running task  widely use in the applications
+
+
